@@ -1,0 +1,207 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+.headerContainer{
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    
+    border-radius: 8px;
+    background-color: crimson;
+    padding: 10px;
+    font-size: 23px;
+    color: white;
+}
+
+.menu{
+    font-family: 'Bebas Neue', 'cursive';
+    list-style: none;
+    margin: 0;
+    padding: 14px;
+    float: right;  
+
+}
+
+li{
+    display: inline-block;    
+    margin-right: 15px;
+
+
+}
+.logo{
+    float: left;
+    display: inline-block;
+}
+
+.imgLogo{
+    width: 50px;
+
+}
+
+.sobreContainer{
+    margin-top: 42px;
+}
+
+.sobremim{
+    
+    padding-bottom: 20px;    
+    text-align: justify;
+    margin: auto;
+    width: 80%;
+    
+}
+
+#titleServicos{
+    color: white;
+    font-family: 'Bebas Neue', 'cursive';
+    background-color: crimson;    
+    border-bottom-left-radius: 27px;
+    border-top-right-radius: 27px;
+    font-size: 410%;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+
+}
+
+.imgServicos{
+    margin: auto;
+    width: 68%;
+}
+
+
+
+.dep1{
+    
+    display:inline-block;
+    width: 300px;
+    height: 300px;
+    
+    
+}
+
+.dep2, .dep3 {
+    
+    display:inline-block;
+    width: 300px;
+    
+}
+
+.cursos{
+    color: white;
+    font-family: 'Bebas Neue', 'cursive';
+    background-color: crimson;    
+    border-bottom-left-radius: 27px;
+    border-top-right-radius: 27px;
+    font-size: 410%;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+.imgCurso{
+    width: 80%;
+    margin-right: 0px;
+    
+    
+}
+
+
+.curso1{
+   
+    position: absolute;
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-left: 590px;
+    margin-right: 75px;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+.curso2{
+    position: absolute;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-left: 590px;
+    margin-right: 75px;
+    margin-top: 365px;
+    border-radius: 50%;
+}
+.curso3{
+    position: absolute;
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-left: 590px;
+    margin-right: 75px;
+    margin-top: 630px;
+    border-radius: 50%;
+}
+.curso4{
+    position: absolute;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-left: 590px;
+    margin-right: 75px;
+    margin-top: 895px;
+    border-radius: 50%;
+}
+
+.descripition1{
+    position: absolute;
+    float: left;
+    width: 30%;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+    margin-top: 12%;
+    margin-left: 136px;
+    margin-right: -71px;
+      
+}
+
+.descripition2{
+    position: absolute;
+    float: right;
+    width: 30%;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+    margin-top: 32%;
+    margin-left: 740px;
+    margin-right: -71px;
+      
+}
+.descripition3{
+    position: absolute;
+    float: left;
+    width: 30%;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+    margin-top: 52%;
+    margin-left: 136px;
+    margin-right: -71px;
+}   
+
+
+.descripition4{
+    position: absolute;
+    float: right;
+    width: 30%;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+    margin-top: 72%;
+    margin-left: 740px;
+    margin-right: -71px;
+}
+
+
+
