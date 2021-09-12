@@ -37,11 +37,13 @@ li{
 
 }
 .logo{
+    
     float: left;
     display: inline-block;
 }
 
 .imgLogo{
+    margin-left: 5px;
     width: 50px;
 
 }
@@ -205,3 +207,39 @@ li{
 
 
 
+.contatoContainer{
+    margin-top: -128px;
+    background-color: crimson;
+    width: 100%;
+    height: 690px;
+}
+
+.titleContainer{
+    font-family: 'Bebas Neue', 'cursive';
+    font-size: 447%;
+    color: white;
+    margin-top: 95%;
+    text-align: center;
+}
+
+.mapa{
+    margin-left: 2px;
+    margin-top: 131px;
+}
+
+.instagram{
+    display: block;
+    width: 50px;
+    margin-top: 0px;
+    margin-left: 616px;
+    color: black;
+}
+
+.whatsapp{
+    display: block;
+    width: 50px;
+    margin-left: 684px;
+    margin-top: -49px;
+    font-size: 32px;
+    color: black;
+}
