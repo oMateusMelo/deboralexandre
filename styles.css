@@ -38,7 +38,6 @@ li{
 }
 .logo{
     
-    float: left;
     display: inline-block;
 }
 
@@ -117,129 +116,308 @@ li{
 
 
 .curso1{
-   
-    position: absolute;
-    float: right;
-    width: 200px;
-    height: 200px;
-    margin-left: 590px;
-    margin-right: 75px;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 280px;
     margin-top: 100px;
     border-radius: 50%;
 }
 
 .curso2{
-    position: absolute;
     float: left;
-    width: 200px;
-    height: 200px;
-    margin-left: 590px;
-    margin-right: 75px;
-    margin-top: 365px;
+    width: 300px;
+    height: 300px;
+    margin-left: 280px;
+    margin-top: 15px;
     border-radius: 50%;
 }
 .curso3{
-    position: absolute;
-    float: right;
-    width: 200px;
-    height: 200px;
-    margin-left: 590px;
-    margin-right: 75px;
-    margin-top: 630px;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 280px;
+    margin-top: 15px;
     border-radius: 50%;
 }
 .curso4{
-    position: absolute;
     float: left;
-    width: 200px;
-    height: 200px;
-    margin-left: 590px;
-    margin-right: 75px;
-    margin-top: 895px;
+    width: 300px;
+    height: 300px;
+    margin-left: 280px;
+    margin-top: 15px;
     border-radius: 50%;
 }
 
 .descripition1{
-    position: absolute;
-    float: left;
-    width: 30%;
-    padding: 0 20px 20px 30px;
-    text-align: right;
-    margin-top: 12%;
-    margin-left: 136px;
-    margin-right: -71px;
+    
+    float: right;
+    width: 41%;
+    text-align: justify;
+    margin-top: 19%;
+    margin-left: 0px;
+    margin-right: -28px;
       
 }
 
 .descripition2{
-    position: absolute;
     float: right;
-    width: 30%;
-    padding: 0 20px 20px 30px;
-    text-align: right;
-    margin-top: 32%;
-    margin-left: 740px;
-    margin-right: -71px;
+    width: 41%;
+    text-align: justify;
+    margin-top: 12%;
+    margin-left: 0px;
+    margin-right: -28px;
       
 }
 .descripition3{
-    position: absolute;
-    float: left;
-    width: 30%;
-    padding: 0 20px 20px 30px;
-    text-align: right;
-    margin-top: 52%;
-    margin-left: 136px;
-    margin-right: -71px;
+    float: right;
+    width: 41%;
+    text-align: justify;
+    margin-top: 12%;
+    margin-left: 0px;
+    margin-right: -28px;
 }   
 
 
 .descripition4{
-    position: absolute;
     float: right;
-    width: 30%;
-    padding: 0 20px 20px 30px;
-    text-align: right;
-    margin-top: 72%;
-    margin-left: 740px;
-    margin-right: -71px;
+    width: 41%;
+    text-align: justify;
+    margin-top: 12%;
+    margin-left: 0px;
+    margin-right: -28px;
 }
 
-
-
-.contatoContainer{
-    margin-top: -128px;
-    background-color: crimson;
-    width: 100%;
-    height: 690px;
-}
-
-.titleContainer{
+.textoRodapeContainer{
+    
     font-family: 'Bebas Neue', 'cursive';
-    font-size: 447%;
-    color: white;
-    margin-top: 95%;
+    background: crimson;
+    padding: 80px;
+    margin-top: 111%;
     text-align: center;
+    font-size: 410%;
+    color: white;
+
 }
 
 .mapa{
     margin-left: 2px;
-    margin-top: 131px;
+    margin-top: 29px;
 }
 
 .instagram{
     display: block;
     width: 50px;
-    margin-top: 0px;
-    margin-left: 616px;
+    margin-top: 34px;
+    margin-left: 530px;
     color: black;
 }
 
 .whatsapp{
     display: block;
     width: 50px;
-    margin-left: 684px;
+    margin-left: 601px;
     margin-top: -49px;
     font-size: 32px;
     color: black;
 }
+
+@media screen and (min-width : 547px){
+    .menu-responsive{
+        visibility: hidden;
+    }
+
+}
+
+
+
+@media screen and (max-width : 547px){
+    .menu{
+        display: none;
+        
+    }
+
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+    .logo{
+        float: left;
+        margin: auto;
+        padding: 14px;
+
+    }
+
+    .menu-responsive{
+        font-family: 'Bebas Neue', 'cursive';
+        margin: 10px;
+        padding: 14px;
+        float: right;  
+    }
+
+
+    .curso1{
+        display: block;
+        margin-left: 44%;
+        margin-top: 12%;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+
+    }
+
+    .descripition1{
+        width: 80%;
+        text-align: justify;
+        margin-bottom: 40px;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;      
+
+    }
+    .curso2{
+        display: block;
+        margin-left: 44%;
+        margin-top: 12%;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+
+    }
+
+    .descripition2{
+        width: 80%;
+        text-align: justify;
+        margin-bottom: 40px;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;      
+
+    }
+    .curso3{
+        display: block;
+        margin-left: 44%;
+        margin-top: 12%;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+
+    }
+
+    .descripition3{
+        width: 80%;
+        text-align: justify;
+        margin-bottom: 40px;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;      
+
+    }
+    .curso4{
+        display: block;
+        margin-left: 44%;
+        margin-top: 12%;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+
+    }
+
+    .descripition4{
+        width: 80%;
+        text-align: justify;
+        margin-bottom: 135px;
+        margin-top: 10%;        
+        margin-left: auto;
+        margin-right: auto;      
+
+    }    
+    
+    .textoRodapeContainer{
+        font-family: 'Bebas Neue', 'cursive';
+        background: crimson;
+        padding: 80px;
+        margin-top: 320%;
+        text-align: center;
+        font-size: 333%;
+        color: white;
+    
+    }
+    
+    
+    .mapa{
+        margin: auto;
+        width: 350px;
+        
+    }
+
+    .whatsapp{
+        float: right;
+        width: 50px;
+        margin-right: 190px;
+        color: black;
+
+    }
+
+    .instagram{
+        float: left;
+        width: 50px;
+        margin-left: 185px;
+        margin-top: 7px;
+        color: black;
+
+    }
+    
+    
+}
+
+
+
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 45px;
+  }
+
+  
