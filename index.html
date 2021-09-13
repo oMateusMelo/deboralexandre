@@ -18,22 +18,53 @@
 
     <div class="headerContainer">
         <div class="logo">
-            <img src="https://omateusmelo.github.io/deboralexandre/logo.png" class="imgLogo">
+            <img src="./images/logo.png" class="imgLogo">
         </div>
         
+        
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#">SOBRE MIM</a>
+              <a href="#">PORTIFÓLIO</a>
+              <a href="#">CURSOS</a>
+              <a href="#">CONTATO</a>
+            </div>
+        </div>    
+          
+          <span style="cursor:pointer" onclick="openNav()" class="menu-responsive">&#9776; MENU</span>
+          
+          <script>
+          function openNav() {
+            document.getElementById("myNav").style.display = "block";
+          }
+          
+          function closeNav() {
+            document.getElementById("myNav").style.display = "none";
+          }
+          </script>
+
+
+
+
         <ul class="menu">
             <li>Sobre Mim</li>
             <li>Portifólio</li>
             <li>Cursos</li>
             <li>Contato</li>
         </ul>
+        
     </div>
     <div class="sobreContainer">
-        <p class="sobremim">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nam perspiciatis officia quasi! Porro quod quae numquam, a doloribus
-             quibusdam voluptatibus ad nihil officia, voluptates neque magni deserunt explicabo eius?</p>
-        <p class="sobremim">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nam perspiciatis officia quasi! Porro quod quae numquam, a doloribus
-        quibusdam voluptatibus ad nihil officia, voluptates neque magni deserunt explicabo eius?</p>
-        <p class="sobremim">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nam perspiciatis officia quasi! Porro quod quae numquam, a doloribus
+        <p class="sobremim">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nam perspiciatis officia
+            quasi! Porro quod quae numquam, a doloribus
+            quibusdam voluptatibus ad nihil officia, voluptates neque magni deserunt explicabo eius?</p>
+        <p class="sobremim">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nam perspiciatis officia
+            quasi! Porro quod quae numquam, a doloribus
+            quibusdam voluptatibus ad nihil officia, voluptates neque magni deserunt explicabo eius?</p>
+        <p class="sobremim">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nam perspiciatis officia
+            quasi! Porro quod quae numquam, a doloribus
             quibusdam voluptatibus ad nihil officia, voluptates neque magni deserunt explicabo eius?</p>
 
     </div>
@@ -42,44 +73,59 @@
         <div id="titleServicos">SERVIÇOS QUE OFEREÇO</div>
         <br><br><br>
         <div class="imgServicos">
-            <img src="https://omateusmelo.github.io/deboralexandre/Depilacao1.png" class="dep1">
-            <img src="https://omateusmelo.github.io/deboralexandre/Depilacao2.jpg" class="dep2">
-            <img src="https://omateusmelo.github.io/deboralexandre/Depilacao3.jpg" class="dep3">
+            <img src="./images/Depilacao1.png" class="dep1">
+            <img src="./images/Depilacao2.jpg" class="dep2">
+            <img src="./images/Depilacao3.jpg" class="dep3">
         </div>
 
         <br><br><br><br><br><br><br><br><br>
     </div>
-
+    
     <div class="cursoStyle">
         <div class="cursos">CURSOS</div>
         <div class="imgCurso">
-            <img src="https://omateusmelo.github.io/deboralexandre/Depilacao1.jpg" class="curso1">
-            <div class="descripition1">Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing </div>
-
-            <img src="https://omateusmelo.github.io/deboralexandre/Depilacao1.jpg" class="curso2">
-            <div class="descripition2">Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing </div>  
-
-            <img src="https://omateusmelo.github.io/deboralexandre/Depilacao1.jpg" class="curso3">
-            <div class="descripition3">Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing </div>
-
-            <img src="https://omateusmelo.github.io/deboralexandre/Depilacao1.jpg" class="curso4">
-            <div class="descripition4">Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing </div>
-            
-        </div>
-    </div>
-    
-    <footer>
-        <div class="titleContainer">
-            VAMOS MARCAR SEU PROCEDIMENTO?
-            <div class="contatoContainer">
-                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3892.8877679725024!2d-39.11943688518129!3d-12.655362891063882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDM5JzE5LjMiUyAzOcKwMDcnMDIuMSJX!5e0!3m2!1spt-BR!2sbr!4v1631382203439!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                <img src="https://omateusmelo.github.io/deboralexandre/instagram.png" alt="INSTAGRAM" class="instagram">
-                <img src="https://omateusmelo.github.io/deboralexandre/whatsapp.png" alt="WHATSAPP" class="whatsapp">
-            
-            
-             
+            <div>
+                <img src="./images/Depilacao1.jpg" class="curso1">
+                <div class="descripition1">Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet
+                    consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet
+                    consectetur adipisicing </div>
+                <div>
+                    <img src="./images/Depilacao1.jpg" class="curso2">
+                    <div class="descripition2">Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet
+                        consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet
+                        consectetur adipisicing </div>
+                    <div>
+                        <img src="./images/Depilacao1.jpg" class="curso3">
+                        <div class="descripition3">Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet
+                            consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet
+                            consectetur adipisicing </div>
+                        <div>
+                            <img src="./images/Depilacao1.jpg" class="curso4">
+                            <div class="descripition4">Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet
+                                consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet
+                                consectetur adipisicing </div>
+                        </div>
+                    </div>
+                </div>                
             </div>
         </div>
+    </div>
+   <footer>
+        <div class="rodapeContainer">
+            <div class="textoRodapeContainer">
+                VAMOS MARCAR SEU PROCEDIMENTO?
+                <div class="mapa">
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3892.8877679725024!2d-39.11943688518129!3d-12.655362891063882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDM5JzE5LjMiUyAzOcKwMDcnMDIuMSJX!5e0!3m2!1spt-BR!2sbr!4v1631382203439!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <div class="imgRede">
+                        <img src="./images/instagram.png" alt="INSTAGRAM" class="instagram">
+                        <img src="./images/whatsapp.png" alt="WHATSAPP" class="whatsapp">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
     </footer>
 
 </body>
