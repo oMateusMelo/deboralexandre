@@ -62,6 +62,7 @@ li{
 }
 
 .portifolio{
+    margin-top: 0px;
     color: white;
     font-family: 'Bebas Neue', 'cursive';
     
@@ -106,15 +107,18 @@ li{
 }
 
 #cursos{
+    margin-top: 14px;
     color: white;
     font-family: 'Bebas Neue', 'cursive';
-    background-color: crimson;    
+    background-color: crimson;
     border-bottom-left-radius: 27px;
     border-top-right-radius: 27px;
     font-size: 410%;
     text-align: center;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 80%;
+
 }
 .imgCurso{
     width: 80%;
